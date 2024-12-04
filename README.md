@@ -1,13 +1,15 @@
 # JobScraper
 
+```
 job-scraper-app/
 ├── backend/                # Backend code (FastAPI)
 │   └── ...
 ├── frontend/               # Frontend code (React + Vite)
 │   └── ...
 └── README.md               # High-level documentation
+```
 
-
+```
 backend/
 ├── app/
 │   ├── __init__.py         # Makes this directory a Python package
@@ -20,8 +22,9 @@ backend/
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Documentation for backend setup and usage
 └── .env                    # Environment variables (if needed)
+```
 
-
+```
 frontend/
 ├── public/
 │   ├── index.html          # Main HTML file
@@ -40,3 +43,4 @@ frontend/
 ├── package.json            # Node.js dependencies
 ├── vite.config.js          # Vite configuration
 └── README.md               # Documentation for frontend setup and usage
+```
