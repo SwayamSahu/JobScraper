@@ -108,19 +108,26 @@ JobScraper/
 ├── backend/
 │   ├── app.py               # Flask API to scrape data and handle requests
 │   ├── requirements.txt     # Python dependencies
-│   └── ...                  # Other backend-related files
+│   └── ...                  # Other backend-related files (e.g., config, utils, etc.)
 ├── frontend/
-│   ├── src/
-│   │   ├── App.js           # Main React component
-│   │   ├── index.css        # Styles for the frontend
-│   │   └── ...              # Other frontend-related files
+│   ├── public/              # Folder for public files like index.html, images, etc.
+│   │   └── index.html       # Main HTML file (template for Vite)
+│   ├── src/                 # Folder for React source code
+│   │   ├── assets/          # Folder for images, icons, or other assets
+│   │   ├── JobList.jsx      # Component to display the list of jobs
+│   │   ├── app.jsx          # Main application component
+│   │   ├── App.css          # CSS specific to the app component
+│   │   ├── index.css        # Global styles for the entire app
+│   │   └── main.jsx         # Entry point for the React app
+│   ├── .gitignore           # Git ignore file to exclude certain files/folders from version control
 │   ├── package.json         # Frontend dependencies and scripts
+│   ├── package-lock.json    # Lockfile for npm dependencies (auto-generated)
+│   ├── vite.config.js       # Vite configuration file
 │   └── ...                  # Other frontend-related files
-└── README.md                # Project documentation
+└── README.md                # Project documentation and setup instructions
+
 ```
-
 ---
-
 ## Notes
 
 - The backend scrapes data from a job board (e.g., Remote OK) and returns job titles and company names in JSON format.
