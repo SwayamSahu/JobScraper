@@ -1,0 +1,92 @@
+
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Responsive design: Adjust layout for smaller screens */
+@media (max-width: 768px) {
+  /* Stack the input and button vertically on smaller screens */
+  .App {
+    padding: 10px;
+  }
+
+  input[type="text"], button {
+    max-width: 100%; /* Make input and button take full width */
+    margin-right: 0;
+  }
+
+  button {
+    margin-top: 15px;
+  }
+
+  table {
+    font-size: 14px; /* Smaller font size on mobile */
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  input[type="text"] {
+    padding: 8px;
+    font-size: 14px; /* Slightly smaller font for very small screens */
+  }
+
+  button {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  table {
+    font-size: 12px; /* Smaller font for better readability on small screens */
+  }
+
+  th, td {
+    padding: 6px;
+  }
+}
