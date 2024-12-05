@@ -1,6 +1,4 @@
-# JobScraper
-
-### Project Name: **JobScraper**
+## Project Name: **JobScraper**
 
 ---
 
