@@ -133,3 +133,9 @@ JobScraper/
 - The backend scrapes data from a job board (e.g., Remote OK) and returns job titles and company names in JSON format.
 - The frontend provides a simple interface where users can search for jobs and view the results in a table.
 - For any issues related to CORS (Cross-Origin Resource Sharing), make sure you have `Flask-CORS` configured correctly in the backend.
+
+---
+## Output
+
+![Screenshot (730)](https://github.com/user-attachments/assets/d92457f8-3f3a-4c8f-9f2f-2f3f5b7f803e)
+
