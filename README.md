@@ -41,7 +41,7 @@ cd jobscraper
 Navigate to the backend folder (`backend`) and create a virtual environment (optional but recommended):
 
 ```bash
-cd backend
+cd job-scraper-backend
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
@@ -72,7 +72,7 @@ This will start the Flask server at `http://127.0.0.1:5000/`.
 Navigate to the frontend folder (`frontend`) and install the necessary packages:
 
 ```bash
-cd frontend
+cd job-scraper-frontend
 npm install  # or use yarn install
 ```
 
